@@ -58,18 +58,44 @@ li {
 
 main {
     display: flex;
-    flex-wrap: wrap;
-    flex-grow: 1;
+    flex-direction: column;
 }
 
 aside {
     flex: 1;
     background-color: var(--background-color);
-    padding: 80px;
     text-align: left;
   }
 
 /* Class Selectors  */
-
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+    border-left: 5px solid gray;
+    padding: 10px;
+    
+}
 
 /* ID Selectors  */
+
+#project-1 {
+    background-image: url(https://tse4.mm.bing.net/th?id=OIP.vQ_4U3dJhtvusW58wngb4gAAAA&pid=Api&P=0&w=300&h=300)
+}
+
+#about-me {
+    display: flex;
+    padding: 15px;
+}
+
+#about-me div {
+    margin-left: 25px;
+    border-left: 5px solid gray;
+    padding: 10px;
+}
+
+#work {
+    display: flex;
+    padding: 15px;
+}
+
