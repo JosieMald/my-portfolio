@@ -12,24 +12,6 @@
     background-color: var(--background-color);
 }
 
-ul {
-    list-style-type: none;
-    background-color: #31343e;
-    width: 100%;
-    margin: 0;
-    padding-top: 15px;
-}
-
-li {
-    display: inline-block;
-    background-color: #31343e;
-    border-bottom: 2px solid #467599;
-    margin: 0 25px;
-    
-}
-
-
-
 /* Element Selectors  */
 
 header {
@@ -38,7 +20,7 @@ header {
 }
 
 
-h1 {
+header h1 {
     display:inline-block;
     background-color: #82cece;
     color: #31343e;
@@ -58,6 +40,34 @@ nav a {
     text-decoration: none;
     font-size: 20px;
 }
+ul {
+    list-style-type: none;
+    background-color: #31343e;
+    width: 100%;
+    margin: 0;
+    padding-top: 15px;
+}
+
+li {
+    display: inline-block;
+    background-color: #31343e;
+    border-bottom: 2px solid #467599;
+    margin: 0 25px;
+    
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+
+aside {
+    flex: 1;
+    background-color: var(--background-color);
+    padding: 80px;
+    text-align: left;
+  }
 
 /* Class Selectors  */
 
