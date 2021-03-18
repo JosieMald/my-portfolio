@@ -124,4 +124,21 @@ footer div {
 
 #contact-me {
     padding: 15px;
-    
+}
+
+/* Media Queries */
+/* -- Tablet -- */
+ @media screen and (max-width: 768px) {
+     header{
+        background-color: pink;
+     }  
+ }
+
+
+/* -- Phone --  */
+ @media screen and (max-width: 425px) {
+     header{
+        background-color: gray;
+     }
+ }
+
