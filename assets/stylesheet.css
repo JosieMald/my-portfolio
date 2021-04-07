@@ -83,7 +83,7 @@ footer div {
     display: flex;
     flex-direction: row;
     margin-left: 25px;
-    border-left: 5px solid var(--font-color);
+    /* border-left: 5px solid var(--font-color); */
     padding: 10px;
     
 }
@@ -101,7 +101,6 @@ footer div {
 /* ID Selectors  */
 
 #project-1 {
-    background-image: url(https://tse4.mm.bing.net/th?id=OIP.vQ_4U3dJhtvusW58wngb4gAAAA&pid=Api&P=0&w=300&h=300);
     width: 700px;
     height: 300px;
     display: flex;
@@ -109,8 +108,12 @@ footer div {
     border: 5px solid var(--font-color);
 }
 
-#project-2, #project-3, #project-4, #project-5{
-    background-image: url(https://tse4.mm.bing.net/th?id=OIP.vQ_4U3dJhtvusW58wngb4gAAAA&pid=Api&P=0&w=300&h=300);
+
+#project-2, #project-3 {
+    width: 200px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
     border: 5px solid var(--font-color);
 }
 
