@@ -4,7 +4,7 @@
 
 ## [Repository](https://github.com/JosieMald/my-portfolio.git)
 
-![Portfolio Site](assets/screencapture-josiemald-github-io-my-portfolio-2021-03-17-22_57_22.png)
+![Portfolio Site](assets/my-portfolio-updated.png)
 
 ### Project:
 ```
