@@ -1,147 +1,35 @@
-/* Universal Selectors */
-
-:root {
-    --font-color: #467599;
-    --background-color: #ededf7;
-    --heading-color: #31343e;
-}
-
-* {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: var(--font-color);
-    background-color: var(--background-color);
-}
-
-
-/* Element Selectors  */
-
-a:hover {
-    color: gray;
-}
-
-header {
-    background-color: #31343e;
-    height: 60px;
-}
-
-
-header h1 {
-    display:inline-block;
-    background-color: #82cece;
-    color: #31343e;
-    margin-top: 10px;
-    padding: 0 15px 0 15px;
-}
-
-nav {
-    display: inline-block;
-    float: right;
-    background-color: #31343e;
-
-}
-
-nav a {
-    text-decoration: none;
-    font-size: 20px;
-    color: #82cece;
-
-}
-ul {
+* body {
+    background-color: #233554;
+  }
+  
+  h3 {
+    color: #64ffda
+  }
+  
+  header {
+    margin: 5px, 0, 5px 0
+  }
+  
+  ul {
     list-style-type: none;
-    background-color: #31343e;
-    width: 100%;
-    margin: 0;
-    padding-top: 15px;
-}
-
-li {
-    display: inline-block;
-    background-color: #31343e;
-    border-bottom: 2px solid #82cece;
-    margin: 0 25px;
-    font-weight: bold;
-    
-}
-
-/* main, footer {
-    display: flex;
-    flex-direction: column;
-} */
-main p {
-    text-align: left;
-}
-
-footer div {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-/* Class Selectors  */
-
-.container {
-    display: flex;
-    flex-direction: row;
-    margin-left: 25px;
-    /* border-left: 5px solid var(--font-color); */
+  }
+  
+  a {
+    color: #ccd6f6
+  }
+  
+  p, i{
+    color: #a8b2d1;
+  }
+  
+.resumeBtn {
+    color: #64ffda!important;
+    border: 1px solid #64ffda;
+    background-color: transparent;
     padding: 10px;
-    
-}
+    border-radius: 5px;
+  }
 
-.box {
-    display: flex;
-    text-align: right;
-}
-.box div {
-    margin-left: 25px;
-    border-left: 5px solid Var(--font-color);
+#resumeBtn {
     padding: 10px;
-}
-
-/* ID Selectors  */
-
-#project-1 {
-    width: 700px;
-    height: 300px;
-    display: flex;
-    flex-direction: row;
-    border: 5px solid var(--font-color);
-}
-
-
-#project-2, #project-3 {
-    width: 200px;
-    height: 100px;
-    display: flex;
-    flex-direction: row;
-    border: 5px solid var(--font-color);
-}
-
-#about-me {
-    padding: 15px;  
-}
-
-#work { 
-    padding: 28px;    
-}
-
-#contact-me {
-    padding: 15px;
-}
-
-/* Media Queries */
-/* -- Tablet -- */
- @media screen and (max-width: 768px) {
-     header{
-        background-color: pink;
-     }  
- }
-
-
-/* -- Phone --  */
- @media screen and (max-width: 425px) {
-     header{
-        background-color: gray;
-     }
- }
-
+  }

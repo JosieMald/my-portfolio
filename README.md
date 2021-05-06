@@ -4,7 +4,7 @@
 
 ## [Repository](https://github.com/JosieMald/my-portfolio.git)
 
-![Portfolio Site](assets/my-portfolio-updated.png)
+![Portfolio Site]()
 
 ### Project:
 ```
