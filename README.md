@@ -1,19 +1,17 @@
-# Horiseon-Code-Refactor
+# Portfolio
 
-## [Portfolio](https://josiemald.github.io/my-portfolio/)
+## Description
 
-## [Repository](https://github.com/JosieMald/my-portfolio.git)
+Wanted to update my portfolio with new homework assignments and projects.
 
-![Portfolio Site]()
+[Portfolio Site](https://josiemald.github.io/my-portfolio/)
 
-### Project:
-```
-Client request potential employee's deployed work samples to review samples for possible candidate position.
-```
+![Portfolio Site](assets/portfolioSS.png)
 
-### Description
-```
-1. Developer portfolio with about me, work projects, and contact info listed.
-2. Navigation links scrolls UI to corresponding sections.
-3. Media Queries for different device viewing.
-```
+## Questions
+
+If you have any questions contact me at:
+
+[Josie Maldonado](https://www.linkedin.com/in/josie-maldonado-437b909a/)
+
+JosieLindaMaldonado@gmail.com
